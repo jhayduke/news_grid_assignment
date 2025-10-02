@@ -1,0 +1,30 @@
+* {
+    text-decoration: none;
+}
+
+.navbar {
+background-image: url(/logo-new.png);
+font-size: 35px;
+
+    
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo a{
+    font-size: larger;
+    color: aliceblue;
+    margin-left: 450px;
+}
+
+.navbutton{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+}
