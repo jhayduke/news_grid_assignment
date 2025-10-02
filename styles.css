@@ -3,8 +3,12 @@
 }
 
 .navbar {
+position: sticky;
 background-image: url(/logo-new.png);
 font-size: 35px;
+display: flex;
+flex-direction: column;
+
 
     
 }
@@ -18,13 +22,20 @@ font-size: 35px;
 
 .logo a{
     font-size: larger;
-    color: aliceblue;
+    color: rgb(255, 6, 6);
     margin-left: 450px;
 }
 
 .navbutton{
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-right: 40px;
+}
+
+
+.footer{
+background-color: black;
+color: white;
+display: flex;
 }
