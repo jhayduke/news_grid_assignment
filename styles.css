@@ -1,17 +1,10 @@
 * {
-    text-decoration: none;
 }
 
 .header {
     background-color: black;
 }
 
-.hero_img {
-    height: 20vh;
-    width: 100vw;
-    display: flex;
-    background-size: ;
-}
 
 .navdiv {
     background-color: rgb(0, 0, 0);
@@ -36,12 +29,23 @@
 }
 
 .Main_News_1 {
-    display: flex;;
-    height: 250px;
-    width: 70%;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    height: 100%;
+    width: 75vw;
     gap: 20px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
+
+
+.card {
+    border: 3px solid black;
+     flex-wrap: wrap;
+}
+
+
 
 
 
